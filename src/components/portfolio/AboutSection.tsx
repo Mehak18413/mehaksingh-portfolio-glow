@@ -27,10 +27,10 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
-            About <span className="bg-primary-gradient bg-clip-text text-transparent">Me</span>
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-shadow">
+            About <span className="text-glow">Me</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed text-shadow">
             A passionate and adaptable learner committed to continuous growth and delivering impactful solutions
           </p>
         </div>

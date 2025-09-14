@@ -30,10 +30,10 @@ const CertificationsSection = () => {
     <section id="certifications" className="py-20 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
-            Certifications & <span className="bg-primary-gradient bg-clip-text text-transparent">Training</span>
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-shadow">
+            Certifications & <span className="text-glow">Training</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-shadow">
             Continuous learning through professional certifications and hands-on experience
           </p>
         </div>

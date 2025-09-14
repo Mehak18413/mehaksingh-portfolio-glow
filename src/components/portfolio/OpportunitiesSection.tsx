@@ -43,16 +43,19 @@ const OpportunitiesSection = () => {
                 </div>
               </div>
               
-              <h2 className="text-4xl md:text-6xl font-display font-bold mb-6">
-                <span className="text-glow">Currently Seeking</span>
+              <h2 className="text-4xl md:text-6xl font-display font-bold mb-6 text-shadow">
+                <span className="text-glow animate-pulse">Currently Seeking</span>
                 <br />
-                <span className="bg-primary-gradient bg-clip-text text-transparent">
+                <span className="text-bright">
                   Opportunities
                 </span>
               </h2>
               
-              <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-                Ready to contribute fresh perspectives and technical expertise to innovative teams
+              <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed text-shadow">
+                Ready to contribute fresh perspectives and technical expertise to innovative teams in{" "}
+                <span className="text-accent font-semibold">Data Analytics</span> |{" "}
+                <span className="text-primary font-semibold">Software Development</span> |{" "}
+                <span className="text-secondary font-semibold">Web Development</span>
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

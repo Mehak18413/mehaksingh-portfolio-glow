@@ -15,17 +15,23 @@ const HeroSection = () => {
           {/* Left content */}
           <div className="text-center lg:text-left space-y-8 animate-fade-up">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-7xl font-display font-bold text-foreground leading-tight">
-                Mehak <span className="text-glow bg-primary-gradient bg-clip-text text-transparent">Singh</span>
+              <h1 className="text-5xl md:text-7xl font-display font-bold leading-tight">
+                <span className="text-bright text-shadow">Mehak</span>{" "}
+                <span className="text-glow bg-primary-gradient bg-clip-text text-transparent animate-pulse">
+                  Singh
+                </span>
               </h1>
-              <p className="text-xl md:text-2xl text-muted-foreground font-medium">
+              <p className="text-xl md:text-2xl text-bright font-semibold text-shadow">
                 BCA Student | Aspiring Software Developer
               </p>
             </div>
             
-            <p className="text-lg text-muted-foreground max-w-lg mx-auto lg:mx-0 leading-relaxed">
-              Passionate about creating innovative solutions through data analytics, software development, 
-              and web technologies. Ready to make an impact in the tech industry.
+            <p className="text-lg text-muted-foreground max-w-lg mx-auto lg:mx-0 leading-relaxed text-shadow">
+              Passionate about creating innovative solutions through{" "}
+              <span className="text-accent font-semibold">data analytics</span>,{" "}
+              <span className="text-primary font-semibold">software development</span>, 
+              and <span className="text-secondary font-semibold">web technologies</span>. 
+              Ready to make an impact in the tech industry.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

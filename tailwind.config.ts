@@ -113,27 +113,48 @@ export default {
         },
         particles: {
           "0%": {
-            transform: "translate(0, 0)",
+            transform: "translate(0, 0) scale(1)",
           },
-          "33%": {
-            transform: "translate(30px, -30px)",
+          "25%": {
+            transform: "translate(40px, -40px) scale(1.1)",
           },
-          "66%": {
-            transform: "translate(-20px, 20px)",
+          "50%": {
+            transform: "translate(-30px, 30px) scale(0.9)",
+          },
+          "75%": {
+            transform: "translate(20px, -20px) scale(1.05)",
           },
           "100%": {
-            transform: "translate(0, 0)",
+            transform: "translate(0, 0) scale(1)",
+          },
+        },
+        "pulse-glow": {
+          "0%, 100%": {
+            boxShadow: "0 0 20px hsl(var(--primary) / 0.3)",
+          },
+          "50%": {
+            boxShadow: "0 0 40px hsl(var(--primary-glow) / 0.6), 0 0 60px hsl(var(--primary-glow) / 0.4)",
+          },
+        },
+        "text-shimmer": {
+          "0%": {
+            backgroundPosition: "-200% center",
+          },
+          "100%": {
+            backgroundPosition: "200% center",
           },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        float: "float 6s ease-in-out infinite",
-        glow: "glow 3s ease-in-out infinite alternate",
+        float: "float 4s ease-in-out infinite",
+        glow: "glow 2s ease-in-out infinite alternate",
         fadeUp: "fadeUp 0.8s ease-out forwards",
         slideRight: "slideRight 1s ease-out forwards",
-        particles: "particles 20s linear infinite",
+        particles: "particles 15s linear infinite",
+        "pulse-glow": "pulse-glow 3s ease-in-out infinite",
+        "text-shimmer": "text-shimmer 3s ease-in-out infinite",
       },
     },
   },

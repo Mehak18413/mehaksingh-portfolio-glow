@@ -31,10 +31,10 @@ const ProjectsSection = () => {
     <section id="projects" className="py-20 bg-background">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">
-            Featured <span className="bg-primary-gradient bg-clip-text text-transparent">Projects</span>
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 text-shadow">
+            Featured <span className="text-glow">Projects</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-shadow">
             Showcasing practical applications of my technical skills through innovative projects
           </p>
         </div>
@@ -62,11 +62,11 @@ const ProjectsSection = () => {
 
               {/* Project Content */}
               <div className="p-6 space-y-4">
-                <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-semibold group-hover:text-primary transition-colors text-bright animate-float">
                   {project.title}
                 </h3>
                 
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed text-shadow">
                   {project.description}
                 </p>
 
